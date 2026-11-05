@@ -1,0 +1,18 @@
+# Lean install for Render: no torch/ChromaDB (too big for small instances). Retrieval uses the built-in TF-IDF search.
+# API
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.7
+python-dotenv>=1.0
+requests>=2.31
+# ML
+scikit-learn>=1.4
+pandas>=2.1
+joblib>=1.3
+numpy>=1.26
+# LLM (Claude is the default provider; openai/groq optional)
+anthropic>=0.40
+# langchain-openai
+# langchain-groq
+# Database
+supabase>=2.5

@@ -1,0 +1,37 @@
+{
+  "retrieval_mode": "tfidf_fallback",
+  "positive_queries": 16,
+  "negative_queries": 5,
+  "hit_at_1": 0.812,
+  "hit_at_3": 0.812,
+  "false_accept_rate": 0.0,
+  "grounded_rate": 0.875,
+  "steps_with_sources_rate": 0.875,
+  "escalation_rate": 0.188,
+  "pipeline_ms": {
+    "p50": 5.5,
+    "p95": 5.8,
+    "max": 137.8
+  },
+  "retrieval_misses": [
+    {
+      "query": "VPN keeps disconnecting every ten minutes when I work from home",
+      "expected": "VPN Connection Failure",
+      "got": []
+    },
+    {
+      "query": "Outlook has not received any new emails since Monday",
+      "expected": "Outlook Email Not Syncing",
+      "got": [
+        "Mailbox Full"
+      ]
+    },
+    {
+      "query": "need Adobe Acrobat installed on my laptop",
+      "expected": "Software Installation Request",
+      "got": []
+    }
+  ],
+  "false_accepts": [],
+  "note": "Latency is for the offline engine (no network). Cloud-LLM latency adds the API round trip."
+}

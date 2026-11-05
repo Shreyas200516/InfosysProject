@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+node_modules/
+dist/
+backend/data/supportpilot.db
+backend/semantic_search/chroma_db/

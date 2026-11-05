@@ -1,0 +1,9 @@
+document_id,title,category,content,source
+DOC001,Wi-Fi Connection Issues,Network,Check that Wi-Fi is enabled. Restart the network adapter and reconnect to the correct wireless network.,wifi_faq
+DOC002,Outlook Email Not Syncing,Email,Check your internet connection. Restart Outlook and verify the account settings. Contact IT support if synchronization still fails.,outlook_faq
+DOC003,Password Reset Problems,Login,Verify your username and follow the approved password reset process. Contact the help desk if the reset link has expired.,password_guide
+DOC004,Application Crashing,Software,Save your work if possible. Restart the application and check for available updates. Contact IT support if the application continues to crash.,application_faq
+DOC005,Printer Showing Offline,Hardware,Check that the printer is powered on and connected to the network. Verify the selected printer and clear any stuck print jobs.,printer_guide
+DOC006,VPN Connection Failure,Network,Verify your internet connection and VPN credentials. Restart the VPN client and reconnect. Contact IT support if the connection fails repeatedly.,vpn_faq
+DOC007,Computer Running Slowly,Performance,Close unnecessary applications and check available disk space. Restart the computer and contact IT support if performance remains poor.,performance_guide
+DOC008,Audio Not Working,Hardware,Check the volume level and confirm the correct audio output device is selected. Reconnect the headset and test the audio again.,audio_faq

@@ -1,0 +1,76 @@
+chunk_id,document_id,title,category,content,source
+DOC001_CHUNK001,DOC001,Wi-Fi Connection Issues,Network,"1. Check that Wi-Fi is enabled.
+2. Restart the network adapter and reconnect to the correct wireless network.",wifi_faq
+DOC002_CHUNK001,DOC002,Outlook Email Not Syncing,Email,"1. Check your internet connection.
+2. Restart Outlook and verify the account settings.
+3. Contact IT support if synchronization still fails.",outlook_faq
+DOC003_CHUNK001,DOC003,Password Reset Problems,Login,"1. Verify your username and follow the approved password reset process.
+2. Contact the help desk if the reset link has expired.",password_guide
+DOC004_CHUNK001,DOC004,Application Crashing,Software,"1. Save your work if possible.
+2. Restart the application and check for available updates.
+3. Contact IT support if the application continues to crash.",application_faq
+DOC005_CHUNK001,DOC005,Printer Showing Offline,Hardware,"1. Check that the printer is powered on and connected to the network.
+2. Verify the selected printer and clear any stuck print jobs.",printer_guide
+DOC006_CHUNK001,DOC006,VPN Connection Failure,Network,"1. Verify your internet connection and VPN credentials.
+2. Restart the VPN client and reconnect.
+3. Contact IT support if the connection fails repeatedly.",vpn_faq
+DOC007_CHUNK001,DOC007,Computer Running Slowly,Performance,"1. Close unnecessary applications and check available disk space.
+2. Restart the computer and contact IT support if performance remains poor.",performance_guide
+DOC008_CHUNK001,DOC008,Audio Not Working,Hardware,"1. Check the volume level and confirm the correct audio output device is selected.
+2. Reconnect the headset and test the audio again.",audio_faq
+DOC009_CHUNK001,DOC009,Reporting a Phishing Email,Security,"1. Do not click any links or open attachments in the message.
+2. Use the Report Phishing button in your mail client to send it to the security team.
+3. Delete the message after reporting it.
+4. If you already clicked a link, change your password immediately and contact the IT security team.",phishing_sop
+DOC010_CHUNK001,DOC010,Suspected Malware or Ransomware,Security,"1. Disconnect the device from Wi-Fi and unplug the network cable immediately.
+2. Do not shut down or delete any files.
+3. Contact the IT security team with the device name and what you saw.
+4. Escalate immediately to the security incident response team.",incident_response_sop
+DOC011_CHUNK001,DOC011,Account Locked Out,Access,"1. Wait 15 minutes, because accounts unlock automatically after the lockout period.
+2. Use the self-service password portal to unlock the account.
+3. If the portal is unavailable, contact the help desk to unlock the account.
+4. Verify that you can sign in after the unlock.",identity_faq
+DOC012_CHUNK001,DOC012,Multi-Factor Authentication Code Not Arriving,Access,"1. Check that the phone has network coverage and is not in Do Not Disturb mode.
+2. Open the authenticator app and use the code shown there instead of waiting for a text message.
+3. If the authenticator device is lost, contact the help desk to reset multi-factor authentication.
+4. Verify the sign-in works after the reset.",identity_faq
+DOC013_CHUNK001,DOC013,Requesting Access to a Shared Folder,Access,"1. Identify the exact folder path or SharePoint site that you need.
+2. Submit an access request that includes the folder owner and your business reason.
+3. The folder owner or manager must approve the request.
+4. Contact the help desk if approval has not been processed after one business day.",access_policy
+DOC014_CHUNK001,DOC014,Software Installation Request,Software,"1. Check the company software catalogue for the application.
+2. Install approved applications from the self-service portal.
+3. If the application is not listed, raise a software request with a business justification.
+4. Contact IT support for licence approval.",software_policy
+DOC015_CHUNK001,DOC015,Microsoft Teams Crashing or Freezing,Software,"1. Fully quit Teams from the system tray and reopen it.
+2. Clear the Teams cache folder and restart the application.
+3. Check for available updates and install them.
+4. Contact IT support if Teams continues to crash.",teams_faq
+DOC016_CHUNK001,DOC016,Windows Update Stuck or Failing,Software,"1. Restart the computer and run Windows Update again.
+2. Make sure at least 10 GB of disk space is free.
+3. Run the Windows Update troubleshooter from Settings.
+4. Contact IT support if the same error code returns.",windows_update_faq
+DOC017_CHUNK001,DOC017,Laptop Will Not Power On,Hardware,"1. Connect the original charger and wait 15 minutes.
+2. Hold the power button for 15 seconds, then try to start the laptop again.
+3. Disconnect all external devices and try again.
+4. Contact IT support to arrange a hardware replacement if the laptop still does not start.",hardware_faq
+DOC018_CHUNK001,DOC018,Monitor Shows No Signal,Hardware,"1. Check that the monitor cable is firmly connected at both ends.
+2. Select the correct input source on the monitor.
+3. Reconnect the docking station and restart the laptop.
+4. Contact IT support if the monitor still shows no signal.",hardware_faq
+DOC019_CHUNK001,DOC019,No Internet Connection,Network,"1. Check that Wi-Fi is on and that you are connected to the corporate network.
+2. Restart the network adapter and reconnect.
+3. Run the Windows network troubleshooter.
+4. Contact IT support if other devices on the same network also have no internet.",network_faq
+DOC020_CHUNK001,DOC020,Shared Mailbox Missing in Outlook,Email,"1. Confirm with your manager that you have been granted access to the shared mailbox.
+2. Close and reopen Outlook, because new mailboxes can take up to 60 minutes to appear.
+3. Add the shared mailbox manually from the account settings.
+4. Contact the help desk if the mailbox still does not appear.",outlook_faq
+DOC021_CHUNK001,DOC021,Mailbox Full,Email,"1. Delete large emails and empty the Deleted Items folder.
+2. Archive old emails to the online archive.
+3. Check your mailbox size in Outlook account settings.
+4. Request a quota increase from the help desk if you still cannot receive mail.",outlook_faq
+DOC022_CHUNK001,DOC022,VPN Slow Performance,Network,"1. Disconnect from the VPN and test your internet speed without it.
+2. Reconnect to the VPN and select a closer VPN gateway.
+3. Close bandwidth-heavy applications while connected.
+4. Contact IT support if the VPN remains slow on a good internet connection.",vpn_faq

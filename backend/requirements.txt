@@ -1,0 +1,24 @@
+# API
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.7
+python-dotenv>=1.0
+requests>=2.31
+# ML
+scikit-learn>=1.4
+pandas>=2.1
+joblib>=1.3
+numpy>=1.26
+# Retrieval / RAG (the team's modules)
+chromadb>=0.5
+sentence-transformers>=3.0
+langchain-core>=0.3
+# LLM (Claude is the default provider; openai/groq optional)
+anthropic>=0.40
+# langchain-openai
+# langchain-groq
+# Database
+supabase>=2.5
+# Tests
+pytest>=8.0
+httpx>=0.27

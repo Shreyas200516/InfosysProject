@@ -1,0 +1,37 @@
+# Render Blueprint: one API + one static site. Dashboard > New > Blueprint > pick this repo.
+services:
+  - type: web
+    name: supportpilot-api
+    runtime: python
+    rootDir: backend
+    plan: free
+    buildCommand: pip install -r requirements-render.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/v1/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: AUTH_SECRET
+        generateValue: true
+      - key: LLM_PROVIDER
+        value: offline          # change to anthropic and add ANTHROPIC_API_KEY for Claude answers
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: CORS_ORIGINS
+        sync: false             # your static site URL, e.g. https://supportpilot-web.onrender.com
+
+  - type: web
+    name: supportpilot-web
+    runtime: static
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    routes:
+      - type: rewrite           # lets /tickets, /signin etc. work on refresh
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: VITE_API_URL
+        sync: false             # your API URL, e.g. https://supportpilot-api.onrender.com
